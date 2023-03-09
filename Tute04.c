@@ -24,16 +24,16 @@ int main() {
 }
 int minimum(int x, int y) {
   if (x > y) {
-    return x;
-  } else {
     return y;
+  } else {
+    return x;
   }
 }
 int maximum(int z, int e) {
   if (z > e) {
-    return e;
-  } else {
     return z;
+  } else {
+    return e;
   }
 }
 
